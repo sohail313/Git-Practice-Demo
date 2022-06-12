@@ -1,1 +1,23 @@
-writing 
+This is demo for git 
+
+:wq 
+
+git init  --init a repo
+git add --<filename>
+git commit -m "descriptive commit message"
+git status
+git log
+git diff --diff in file version (commited /not commited)
+git restore - to discard changes in working directory
+
+git branch <branchname>  --create new branch
+git branch  ---list all branches
+git switch <branchname>
+
+git merge <branchname>
+git log --oneline
+
+git remote add origin https://github.com/sohail313/Git-Practice-Demo.git
+
+git push --set-upstream origin dev
+git reset
